@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="Selecciona una opción">
+    <menu>
+        <item
+            android:id="@+id/user"
+            android:icon="@drawable/user"
+            android:title="Perfil de usuario">
+
+        </item>
+        <item
+            android:id="@+id/friendslist"
+            android:icon="@drawable/group"
+            android:title="Lista de amigos">
+
+        </item>
+        <item
+            android:id="@+id/debate"
+            android:icon="@drawable/stars"
+            android:title="Debates">
+
+        </item>
+        <item
+            android:id="@+id/search"
+            android:icon="@drawable/search"
+            android:title="Buscar">
+
+        </item>
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/exit"
+            android:title="Salir">
+
+        </item>
+
+    </menu>
+
+</item>
+</menu>
